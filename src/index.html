@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Glitchy Grid Layout Slideshow | Codrops</title>
+		<meta name="description" content="An experimental slideshow with a custom grid layout and a glitch hover effect." />
+		<meta name="keywords" content="css grid, glitch, slideshow, hover, magnetic, navigation, javascript, gsap" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/qhm2ggg.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<h1 class="frame__title">Glitchy Grid Layout Slideshow</h1>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Tutorials/TypographyMotion/">Previous demo</a>
+					<a href="https://tympanus.net/codrops/?p=50258">Article</a>
+					<a href="https://github.com/codrops/GlitchyGrid/">GitHub</a>
+				</div>
+				<a class="frame__menu">Menu</a>
+				<nav class="frame__nav">
+					<button class="frame__nav-item frame__nav-item--current"></button>
+					<button class="frame__nav-item"></button>
+					<button class="frame__nav-item"></button>
+				</nav>
+			</div>
+			<div class="content">
+				<div class="content__slide content__slide--current">
+					<div class="content__slide-item" style="background-image:url(img/2.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/4.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/5.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/14.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/15.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/16.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/17.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/23.jpg)"></div>
+					<div class="content__slide-text">
+						<span class="text text--font1">Hold <em>fast</em></span>
+						<span class="text text--font2">like an anchor</span>
+						<span class="text text--font3">in <em>the</em> storm</span>
+					</div>
+				</div>
+				<div class="content__slide">
+					<div class="content__slide-item" style="background-image:url(img/1.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/9.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/3.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/10.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/11.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/12.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/13.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/22.jpg)"></div>
+					<div class="content__slide-text">
+						<span class="text text--font1">Being <em>free</em></span>
+						<span class="text text--font2">is a state</span>
+						<span class="text text--font3"><em>of</em> mind</span>
+					</div>
+				</div>
+				<div class="content__slide">
+					<div class="content__slide-item" style="background-image:url(img/6.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/7.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/8.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/18.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/19.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/20.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/21.jpg)"></div>
+					<div class="content__slide-item" style="background-image:url(img/24.jpg)"></div>
+					<div class="content__slide-text">
+						<span class="text text--font1">There is <em>no final</em></span>
+						<span class="text text--font2">one, revolutions</span>
+						<span class="text text--font3"><em>are</em> infinite</span>
+					</div>
+				</div>
+				<button class="content__action">
+					<span class="content__action-text">Enter</span>
+				</button>
+			</div>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>
