@@ -39,9 +39,9 @@ const distance = (x1,x2,y1,y2) => {
 }
 
 // Preload images
-const preloadImages = (selector) => {
+const preloadImages = (selector, opts) => {
     return new Promise((resolve) => {
-        imagesLoaded(document.querySelectorAll(selector), resolve);
+        imagesLoaded(document.querySelectorAll(selector), opts, resolve);
     });
 };
 

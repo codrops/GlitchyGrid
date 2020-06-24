@@ -689,9 +689,9 @@ var distance = function distance(x1, x2, y1, y2) {
 
 exports.distance = distance;
 
-var preloadImages = function preloadImages(selector) {
+var preloadImages = function preloadImages(selector, opts) {
   return new Promise(function (resolve) {
-    imagesLoaded(document.querySelectorAll(selector), resolve);
+    imagesLoaded(document.querySelectorAll(selector), opts, resolve);
   });
 }; // Preload images
 
